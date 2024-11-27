@@ -558,8 +558,8 @@ section,
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the entire section */
-  object-position: 70% center; /* Adjust focus to the right side */
+  object-fit: cover;
+  object-position: 80% center; /* Focus on the right side */
   z-index: 1;
 }
 
@@ -612,29 +612,30 @@ section,
   color: var(--accent-color);
 }
 
-/* Media Queries for Mobile Devices */
+/* Mobile Adjustments */
 @media (max-width: 768px) {
   .hero {
     padding: 60px 0;
-    justify-content: flex-start; /* Align content to the top */
+    flex-direction: column; /* Stack content vertically */
   }
 
   .hero img {
-    object-position: 80% center; /* Focus on the right side */
+    object-position: 90% center; /* Further shift to the right */
   }
 
   .hero h2 {
     font-size: 32px;
-    text-align: center; /* Center-align text */
+    text-align: center;
   }
 
   .hero p {
     font-size: 20px;
-    text-align: center; /* Center-align text */
+    text-align: center;
   }
 
   .hero .social-links {
-    text-align: center; /* Center-align social links */
+    text-align: center;
+    margin-top: 20px;
   }
 }
 /*--------------------------------------------------------------
