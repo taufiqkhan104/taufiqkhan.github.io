@@ -578,7 +578,7 @@ section,
 .hero .container {
   position: relative;
   z-index: 3;
-  padding-top: 30px; /* Add extra space only for the text block */
+  padding-top: 200px; /* Add extra space only for the text block */
 }
 
 
