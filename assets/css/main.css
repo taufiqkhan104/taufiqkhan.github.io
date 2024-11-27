@@ -571,10 +571,16 @@ section,
   z-index: 2;
 }
 
+.hero {
+  padding: 120px 0; /* Increased padding for the entire section */
+}
+
 .hero .container {
   position: relative;
   z-index: 3;
+  padding-top: 30px; /* Add extra space only for the text block */
 }
+
 
 .hero h2 {
   margin: 0;
